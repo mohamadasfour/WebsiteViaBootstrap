@@ -34,7 +34,12 @@ padding-top: .8rem;
   height: 100vh;
 }
 
-/*============= COURSE SECTION =============*/
+.offset::before{
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
 
 .narrow {
   width: 75%;
